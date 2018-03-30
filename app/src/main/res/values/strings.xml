@@ -2,31 +2,61 @@
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">LinuxQuiz</string>
     <!-- String of question no 1 -->
-    <string name="question1">1. Which of the following command display the disk consumption of any directory?</string>
+    <string name="question1">1. Which of the following command display the disk consumption
+        of any directory?</string>
     <!-- String of question no 2 -->
-    <string name="question2">2. What commands can be used to get name of the current user in bash?</string>
+    <string name="question2">2. What commands can be used to get name of the current user
+        in bash?</string>
     <!-- String of question no 3 -->
-    <string name="question3">3. According to the bash quoting rules, what does <i>echo \"\\\'\"</i> print? </string>
+    <string name="question3">3. According to the bash quoting rules, what does <i>echo \"\\\'\"</i>
+        print? </string>
     <!-- Hint for EditText field in the question no 3-->
     <string name="hint_for_q3">Enter output here</string>
     <!-- String of question no 4 -->
-    <string name="question4">4. What command must one type to return from <i>/usr/local/bin</i> to <i>/usr/local</i> ? </string>
+    <string name="question4">4. What command must one type to return from <i>/usr/local/bin</i>
+        to <i>/usr/local</i> ? </string>
     <!-- String of question no 5 -->
     <string name="question5">5. Type command which lists <b>the last 5 commands</b> in bash</string>
     <!-- Hint for EditText field in the question no 5-->
     <string name="hint_for_q5">Type here</string>
     <!--Results string. It will be shown in fformat "2 of 5 answers are correct"-->
-    <string name="results"><xliff:g id="correctans" example="2">%d</xliff:g> of 5 answers are correct!</string>
+    <string name="results"><xliff:g id="correctans" example="2">%d</xliff:g> of 5 answers
+        are correct!</string>
     <!-- Button label for checking answers-->
     <string name="check">Check</string>
     <!-- Button label for sharing results-->
     <string name="share_button_label">Share with friend</string>
     <!-- Informal message whch will be sending through messages by intent-->
-    <string name="sharing_message">Dude, i just got <xliff:g id="correctans" example="2">%d</xliff:g> of 5 answers correct in LinuxQuiz app, check it out!</string>
+    <string name="sharing_message">Dude, i just got <xliff:g id="correctans" example="2">%d</xliff:g>
+        of 5 answers correct in LinuxQuiz app, check it out!</string>
     <!-- Button label for opening answers-->
     <string name="see_answers">Open answers</string>
     <!-- Right answer for question no 3-->
     <string name="expl3">\\\'</string>
     <!-- Right answer for question no 5-->
     <string name="expl5">fc -l -5</string>
+    <!-- Possible answer 1 for question no 1-->
+    <string name="q1_ans1">du</string>
+    <!-- Possible answer 2 for question no 1-->
+    <string name="q1_ans2">ds</string>
+    <!-- Possible answer 3 for question no 1-->
+    <string name="q1_ans3">dd</string>
+    <!-- Possible answer 4 for question no 1-->
+    <string name="q1_ans4">dds</string>
+    <!-- Possible answer 1 for question no 2-->
+    <string name="q2_ans1">id -u</string>
+    <!-- Possible answer 2 for question no 2-->
+    <string name="q2_ans2">me</string>
+    <!-- Possible answer 3 for question no 2-->
+    <string name="q2_ans3">whoami</string>
+    <!-- Possible answer 4 for question no 2-->
+    <string name="q2_ans4">echo $USER</string>
+    <!-- Possible answer 1 for question no 4-->
+    <string name="q4_ans1">cd .</string>
+    <!-- Possible answer 2 for question no 4-->
+    <string name="q4_ans2">cd ..</string>
+    <!-- Possible answer 3 for question no 4-->
+    <string name="q4_ans3">mkdir .</string>
+    <!-- Possible answer 4 for question no 4-->
+    <string name="q4_ans4">rm ..</string>
 </resources>

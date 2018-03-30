@@ -25,32 +25,32 @@
             android:layout_height="wrap_content">
 
             <RadioButton
-                android:id="@+id/ans1"
+                android:id="@+id/radio_button_q1_ans1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="du"
+                android:text="@string/q1_ans1"
                 android:textSize="16sp" />
 
             <RadioButton
-                android:id="@+id/ans1_wr1"
+                android:id="@+id/radio_button_q1_ans2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ds"
+                android:text="@string/q1_ans2"
                 android:textSize="16sp" />
 
             <RadioButton
-                android:id="@+id/ans1_wr2"
+                android:id="@+id/radio_button_q1_ans3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="dd"
+                android:text="@string/q1_ans3"
                 android:textSize="16sp" />
 
             <RadioButton
-                android:id="@+id/ans1_wr3"
+                android:id="@+id/radio_button_q1_ans4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="dds"
+                android:text="@string/q1_ans4"
                 android:textSize="16sp" />
         </RadioGroup>
 
@@ -58,6 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:background="#808080" />
 
         <TextView
@@ -69,38 +70,39 @@
             android:textSize="20sp" />
 
         <CheckBox
-            android:id="@+id/ans2_wrong1"
+            android:id="@+id/checkbox_q2_ans1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="id -u"
+            android:text="@string/q2_ans1"
             android:textSize="16sp" />
 
         <CheckBox
-            android:id="@+id/ans2_wrong2"
+            android:id="@+id/checkbox_q2_ans2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="me"
+            android:text="@string/q2_ans2"
             android:textSize="16sp" />
 
         <CheckBox
-            android:id="@+id/ans2_a"
+            android:id="@+id/checkbox_q2_ans3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="whoami"
+            android:text="@string/q2_ans3"
             android:textSize="16sp" />
 
         <CheckBox
-            android:id="@+id/ans2_b"
+            android:id="@+id/checkbox_q2_ans4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="echo $USER"
+            android:text="@string/q2_ans4"
             android:textSize="16sp" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:background="#808080" />
 
         <TextView
@@ -112,27 +114,30 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/ans3"
+            android:id="@+id/edittext_q3_ans1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             android:hint="@string/hint_for_q3"
+            android:inputType="text"
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/expl3"
+            android:id="@+id/textview_q3_ans"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:layout_marginBottom="8dp"
             android:layout_gravity="center"
-            android:textSize="16sp"/>
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:visibility="gone" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:background="#808080" />
 
         <TextView
@@ -148,41 +153,41 @@
             android:layout_height="wrap_content">
 
             <RadioButton
-                android:id="@+id/ans4_wr1"
+                android:id="@+id/radio_button_q4_ans1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="cd ."
+                android:text="@string/q4_ans1"
                 android:textSize="16sp" />
 
             <RadioButton
-                android:id="@+id/ans4"
+                android:id="@+id/radio_button_q4_ans2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="cd .."
+                android:text="@string/q4_ans2"
                 android:textSize="16sp" />
 
             <RadioButton
-                android:id="@+id/ans4_wr2"
+                android:id="@+id/radio_button_q4_ans3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="cd ..."
+                android:text="@string/q4_ans3"
                 android:textSize="16sp" />
 
             <RadioButton
-                android:id="@+id/ans4_wr3"
+                android:id="@+id/radio_button_q4_ans4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="rm .."
+                android:text="@string/q4_ans4"
                 android:textSize="16sp" />
         </RadioGroup>
-
 
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
             android:background="#808080" />
 
         <TextView
@@ -194,22 +199,24 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/ans5"
+            android:id="@+id/edittext_q5_ans1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             android:hint="@string/hint_for_q5"
+            android:inputType="text"
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/expl5"
+            android:id="@+id/textview_q5_ans"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:layout_marginBottom="8dp"
             android:layout_gravity="center"
-            android:textSize="16sp"/>
+            android:layout_marginBottom="8dp"
+            android:textSize="16sp"
+            android:visibility="gone" />
 
         <Button
             android:layout_width="wrap_content"
@@ -220,7 +227,7 @@
             android:text="@string/check" />
 
         <TextView
-            android:id="@+id/results"
+            android:id="@+id/textview_results"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -240,7 +247,7 @@
 
         <Button
 
-            android:id="@+id/seeans_button"
+            android:id="@+id/open_answers_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
